@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: activemq-pod
+  labels:
+    app: activemq-app
+spec:
+  containers:
+  - name: activemq-container
+    image: active-mq
